@@ -1,0 +1,15 @@
+{
+  "workbench.colorTheme": "Monokai-HighFructose",
+  "git.ignoreLegacyWarning": true,
+  "workbench.iconTheme": "ayu",
+  "window.zoomLevel": -1,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "prettier.singleQuote": true,
+  "eslint.autoFixOnSave": true,
+  "files.autoSave": "off",
+  "prettier.semi": false,
+  "phpformatter.composer": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true
+}
