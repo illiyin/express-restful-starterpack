@@ -2,6 +2,7 @@ var express = require('express')
 var bodyparser = require('body-parser')
 var expressValidator = require('express-validator')
 var helmet = require('helmet')
+var morgan = require('morgan') // HTTP Logging
 
 var app = express()
 var port = process.env.port || 3000
@@ -12,6 +13,8 @@ app.use(
     extended: true
   })
 )
+// Morgan
+app.use(morgan('combined'))
 // Body Parser
 app.use(bodyparser.json())
 // Express validation
